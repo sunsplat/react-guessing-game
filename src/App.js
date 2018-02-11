@@ -67,7 +67,7 @@ class App extends Component {
         this.setState({
             guesses: this.state.guesses.concat([this.state.number]),
             message: this.getMessage(difference),
-            number: 0
+            number: ''
         });
         this.numGuesses++;
     }
