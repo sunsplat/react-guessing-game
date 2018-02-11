@@ -92,7 +92,7 @@ class App extends Component {
             <form className="ui form guessForm">
                 <GuessMessage className="ui positive message" message={this.state.message} />
                 <GuessInput id="number" type="number" min={0} placeholder="Enter Your Guess" value={this.state.number} onChange={e => this.updateNumber(e)}/>
-                <GuessInput className="ui teal button" id="submit" type="button" value="Guess" onClick={(e) => this.validateNumber(e)}/>
+                <GuessInput className="ui teal button" type="button" value="Guess" onClick={(e) => this.validateNumber(e)}/>
                 <GuessCount className="ui teal bottom left attached label guess" value={this.numGuesses} />
             </form>
             <Guesses allGuesses={guesses} className="ui teal header"/>
