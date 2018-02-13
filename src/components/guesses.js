@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import './guesses.css';
-
 export default function Guesses(props) {
     return (
         <div>

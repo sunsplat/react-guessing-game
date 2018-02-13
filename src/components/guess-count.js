@@ -5,7 +5,7 @@ export default function GuessCount(props) {
         <div
             className={props.className}
             value={props.value}>
-            Guess No: {props.value}
+            # of Tries: {props.value}
         </div>
 
     );
